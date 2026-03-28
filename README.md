@@ -11,7 +11,11 @@ A deep reinforcement learning system that teaches itself the laws of molecular p
 
 ## 🎥 The Optimization Engine in Action
 
-<!-- `conformer_optimization_smooth.mp4` -->
+
+
+https://github.com/user-attachments/assets/b4f7a954-9311-4c0e-bf6e-5d347dd8728c
+
+
 
 What you're watching above is zero-shot physical optimization. The agent starts from a high-energy, sterically hindered configuration and — through pure gradient descent on a reward signal from a quantum chemistry force field — works its way to the global energy minimum. In the case of ethane, that's the anti-staggered conformation: the arrangement every physical chemistry textbook tells you is most stable, rediscovered here entirely from scratch.
 
