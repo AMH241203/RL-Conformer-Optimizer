@@ -37,7 +37,7 @@ def train_agent():
     model.learn(total_timesteps=timesteps)
 
     # 4. Save the Weights
-    model_path = "ppo_conformer_model"
+    model_path = "models/ppo_conformer_model"
     model.save(model_path)
     print(f"Training complete! PyTorch model saved to {model_path}.zip")
 

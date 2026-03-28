@@ -11,7 +11,7 @@ def generate_morph_files():
     os.makedirs("visualizations", exist_ok=True)
     
     env = ConformerEnv(smiles="CCCC")
-    model = PPO.load("ppo_conformer_model")
+    model = PPO.load("models/ppo_conformer_model")    
     obs, info = env.reset()
     
     # 1. Save the initial twisted state

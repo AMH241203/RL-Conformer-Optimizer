@@ -9,7 +9,7 @@ def evaluate_agent():
     env = ConformerEnv(smiles="CCCC")
     
     # Load the trained PyTorch weights
-    model = PPO.load("ppo_conformer_model")
+    model = PPO.load("models/ppo_conformer_model")
     
     obs, info = env.reset()
     print(f"Initial Energy: {info.get('energy'):.2f}")
